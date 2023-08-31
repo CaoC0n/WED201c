@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Adora Collection </title>
+
+<!--Embed css here-->
+
+
+<style>
+	
+.checked {
+  color: orange;
+}
+	
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0AB4B7;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+ 
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: #F3F90E;
+}
+
+.sidebar a:hover {
+  color: #FFFFFF;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #F76E12;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #0BC9C0;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 10px;
+  margin-left: 300px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+	
+
+
+</head>
+
+<body>
+
+	<div id="mySidebar" class="sidebar"> <!--content menu-->
+
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="#">Home</a>
+	  <a href="#">About</a>
+	  <a href="#">Men's shirts</a>
+	  <a href="#">Men's trousers</a>
+	  <a href="#">Women's dress</a>
+	  <a href="#">Versatile skirts</a>
+	  <a href="#">Contact</a>
+
+	</div> <!--Kết thúc content menu-->
+
+
+	<div> <!--content header-->
+
+		<div> <!--div logo-->
+			<a href="index.html"><img src="images/logochanel.png"></a>
+		</div> <!--Kết thúc div logo-->
+
+
+		<div> <!--div search-->
+			<form>
+			<input type="text" placeholder="Search in website">
+			<button type="submit">Search</button>
+			</form>
+
+		</div> <!--Kết thúc div search-->
+
+		<div> <!--div menu-->
+
+			<div id="main">
+				<button class="openbtn" onclick="openNav()">☰ Menu</button>  
+
+			</div>
+		</div> <!--Kết thúc div menu-->
+	
+	</div> <!--Kết thúc content header-->
+	
+	
+	
+	<div> <!--div banner-->
+		
+		<img src="images/Banner01.jpg" alt="Chanel" />
+		<img src="images/Banner02.jpg" alt="Chanel" />
+		
+	</div><!--Kết thúc Banner-->
+	
+	<div> <!--content Best Sellers-->
+	
+		<h1>Best Sellers</h1>
+		
+		<div>
+			
+			<img src="images/Banner03.jpg" alt="Versatile skirts" />
+			
+		</div>
+		
+		<div>
+		
+			<h2>Versatile skirts</h2>
+			
+			<p>Versatile skirts, a variety of designs and styles from A-line skirts, straight skirts, pencil skirts bring femininity and momentum to girls in the office. With the skirt, girls can freely transform with more stylish sets. You can choose to mix with a shirt to give yourself an elegant and modern look. Or the days when she wants to be younger and more active, Ruza tells her to mix with T-shirts or stylish and trendy shirts.</p>
+			
+			<h3>The hottest fashion models in the summer of 2023</h3>
+			
+			<div>
+			
+				<img src="images/Aosomi1.jpg" alt="Ao so mi" />
+				<img src="images/dam.jpg" alt="Dam cong so" />
+				<img src="images/vay.jpg" alt="Vay cong so" />
+				<img src="images/thoitrang01.jpg" alt="Thoi trang cong so" />
+				<img src="images/thoitrang02.jpg" alt="Thoi trang cong so" />
+				
+			</div>
+			
+			
+		</div>
+		
+		<div style="clear: both;"></div>
+		
+	</div> <!--Kết thúc content Best Sellers-->
+	
+	
+	
+	<div> <!--content NEW YEAR SALE OFF-->
+	
+	<h1>NEW YEAR SALE OFF</h1>
+	
+		<div>
+		
+			<img src="images/aosomiNam01.jpg" alt="Ao so mi Nam" />
+			<h4>Men's White Long Sleeve Shirt Nano Antibacterial Anti Wrinkle</h4>
+			<p> <del>30$ </del> &nbsp; &nbsp;  25 $ </p>
+			<div>Buy Now</div>
+			
+		</div>
+		
+		<!------------------------------------------------------------------------------>
+		
+		<div>
+		
+			<img src="images/aosomiNam02.jpg"  alt="Ao so mi Nam"  />
+			<h4>Anti-Wrinkle Nano Antibacterial Long Sleeve Men's Dotted Shirt </h4>
+			<p> <del>50$ </del> &nbsp; &nbsp;  46$ </p>
+			<div>Buy Now</div>
+			
+		</div>
+		
+		<!------------------------------------------------------------------------------->
+		
+		<div>
+		
+			<img src="images/QuantayNam01.jpg"  alt="Quan tay ong suong Han Quoc"  />
+			<h4>Korean men's loose-fitting trousers</h4>
+			<p> <del>40$</del> &nbsp; &nbsp;  34$ </p>
+			<div>Buy Now</div>
+			
+		</div>
+		
+		<!------------------------------------------------------------------------------------>
+		
+		<div>
+		
+			<img src="images/QuantayNam02.jpg"  alt="Quan tay ong lung han quoc"  />
+			<h4>Korean men's cropped trousers</h4>
+			<p> <del>50$ </del> &nbsp; &nbsp;  45$ </p>
+			<div>Buy Now</div>
+			
+		</div>
+		
+		<div style="clear: both; margin-bottom: 10px;"></div>
+		
+	</div>	<!--kết thúc content NEW YEAR SALE OFF-->
+	
+	<div> <!-- content footer-->
+				
+				<p>Email : Adora@gmail.com</p>
+				<p>Address: 100 Quang Trung,Go vap District, HCMC</p>
+				<h5>&copy; Copyright 2023. Adora.com</h5>
+			
+	</div> <!-- Kết thúc content footer-->
+	
+
+	<!--Embed Javascript here-->
+	
+			
+	
+</body>
+
+
+</html>
+
+
