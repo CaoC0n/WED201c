@@ -1,0 +1,102 @@
+.padding {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer {
+    background-color: rgb(89, 205, 205);
+    text-align: center;
+}
+
+.footer-content p {
+    padding: 10px 0px;
+    margin: 0px;
+    color: white
+}
+
+.footer-content {
+    padding: 10px 0px;
+    margin: 0px;
+    color: white;
+}
+
+
+.header-input>div {
+    margin-top: 50px;
+}
+
+
+.header-titke {
+    color: red;
+    font-style: italic;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.header-logo img {
+    margin-top: 10px;
+    width: 20%;
+    width: 120px;
+    height: 85px;
+}
+
+.navigator {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.space-around {
+    padding: 0px 40px;
+}
+
+.title-blue {
+    text-align: center;
+    color: rgb(78, 216, 216);
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.description {
+    padding: 20px
+}
+
+.description-para {
+    text-align: justify;
+    font-size: 27px;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.bike-img-1 img {
+    width: 100%;
+}
+
+.bike-img-2 img {
+    width: 60%;
+}
+
+.bike-img-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.content-first-title h3 {
+    color: orange
+}
+
+.content-first-title p {
+    line-height: 25px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.content-first-img img {
+    width: 80%;
+}

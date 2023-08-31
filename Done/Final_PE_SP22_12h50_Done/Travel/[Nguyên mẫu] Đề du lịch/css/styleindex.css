@@ -1,0 +1,28 @@
+.img-content {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.32);
+    width: 100%;
+}
+
+.footer {
+    background-color: rgb(6, 199, 199);
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    margin-top: 10px;
+}
+
+.green th {
+    color: green;
+}
+
+.orange td {
+    color: orange;
+}

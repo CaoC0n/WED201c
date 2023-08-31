@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    color: orange;
+    margin: 0px 50px;
+    font-style: italic;
+}
+
+.header-search {
+    margin: 0px 50px;
+}
+
+.header-search-button {
+    background-color: black;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.menu {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    width: 20%;
+}
+
+.menu ul {
+    margin-top: -10px;
+    padding: 0px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+#menu {
+    background-color: aquamarine;
+}
+
+#card-video {
+    background-color: rgb(106, 158, 106);
+}
+
+.content {
+    display: flex;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.main-content-items {
+    margin: auto;
+}
+
+.main-content-title {
+    text-align: center;
+    color: aqua;
+}
+
+.main-content-items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+
+}
+
+.items {
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 5px 5px 5px 5px rgb(148, 148, 148);
+    padding: 20px;
+}
+
+.items img {
+    border-radius: 5px 5px 0px 0px;
+    width: 90%;
+}
+
+.items-info {
+    text-align: center;
+}
+
+.items-info del {
+    color: rgb(194, 194, 194);
+}
+
+.items-info p {
+    color: red;
+}
+
+.items-info div {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.footer {
+    background-color: rgb(11, 161, 161);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

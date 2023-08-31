@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+}
+
+.content li a {
+    text-decoration: none;
+}
+
+.content li {
+    list-style-type: none;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.header-button-search {
+    margin-right: 70px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    color: red;
+}
+
+.content-bestseller {
+    display: flex;
+}
+
+.gift {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gift-ssd img {
+    width: 60%;
+}
+
+.gift-headphone img {
+    width: 60%;
+}
+
+.right-content {
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.content-bestseller div img {
+    margin-right: 50px;
+}
+
+.main-right-content {
+    margin-right: 130px;
+}
+
+.content-product {
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.product img {
+    width: 250px;
+    height: 250px;
+}
+
+.product>div {
+    flex: 1;
+}
+
+.productname {
+    background-color: orange;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer {
+    background-color: greenyellow;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 100px;
+}

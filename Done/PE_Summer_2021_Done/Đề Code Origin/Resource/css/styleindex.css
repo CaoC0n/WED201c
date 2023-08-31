@@ -1,0 +1,59 @@
+.nopadding {
+    padding: 0px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.width-img img {
+    width: 100%;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+.content {
+    position: relative;
+}
+
+.service-content {
+    background-color: rgba(0, 0, 0, 0.32);
+    position: absolute;
+    color: white;
+    padding-left: 20px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.service-content h3 {   
+    font-size: 20px;
+}
+
+.content-combo {
+    background-color: #ccc8c8;
+    padding: 8px 5px 0px;
+}
+
+.content-combo>p{
+    border-bottom: 2px dashed grey;
+}
+
+.content-item {
+    padding-top: 5px;
+}
+
+.content-item p:nth-child(2) {
+    margin-top: 20px;
+}
+
